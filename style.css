@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+   margin: 0 auto;
+   
+}
+h2 {
+    margin-bottom: 20px;
+}
+header {
+    position: fixed;
+    width: 100%;
+}
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 3;
+}
+li {
+    margin-left: 20px;
+}
+a {
+    color: seashell;
+}
+
+
+.logo {
+    height: 50px;
+}
+nav {
+    display: flex;
+    
+}
+ul {
+    list-style: none;
+    display: inline-flex;
+}
+main {
+    max-width: 1200px;
+    top: 69px;
+    margin: 0 auto;
+}
+.mission {
+    background-image: url('./images/img-mission-background.jpg');
+    height: 700px;
+    
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.mission__text {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    z-index: 3;
+    text-align: center;
+}
